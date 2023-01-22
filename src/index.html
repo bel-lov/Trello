@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="cards">
+            <div class="card">
+                <h2 class="title">TODO</h2>
+                <ul class="list todo-list">
+                    <li class="list-item init">no issues</li>
+                    <!-- <li class="list-item" draggable="true">
+                        <p>djcyhnygjxcj</p>
+                    </li> -->
+                </ul>
+                <div class="container-input hidden">
+                    <textarea class="input" placeholder="Enter a title for this card"></textarea>
+                </div>
+                <div class="addCard addCard-todo">
+                    <span class="addCardText addCardText-todo">+ Add another card</span>
+                    <button class="button hidden">Add card</button>
+                    <button class="delete-button hidden">Х</button>
+                </div>
+            </div>
+            <div class="card">
+                <h2 class="title">IN PROGRESS</h2>
+                <div class="container-input1">
+                    <input type="file" class="overlapped">
+                    <span class="overlap"></span>
+                </div>
+                <button class="button">Add another card</button>
+            </div>
+            <div class="card">
+                <h2 class="title">DONE</h2>
+                <ul class="list done-list">
+                    <li class="list-item init-done">no issues</li>
+                </ul>
+                <div class="container-input container-input-done hidden">
+                    <textarea class="input input-done" placeholder="Enter a title for this card"></textarea>
+                </div>
+                <div class="addCard addCard-done">
+                    <span class="addCardText addCardText-done">+ Add another card</span>
+                    <button class="button button-done hidden">Add card</button>
+                    <button class="delete-button hidden">Х</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
