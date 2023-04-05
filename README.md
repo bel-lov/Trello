@@ -28,8 +28,8 @@
 Внешний вид курсора ('grabbing')
 Курсор по отношению к карточке остаётся там, где изначально схватили - не привязывается ни к левому краю, ни к центру, а там, где схватили карточку, т.е. можно схватить за нижний левый угол
 
-[![Build status](https://ci.appveyor.com/api/projects/status/g6bb55s7392bpre0?svg=true)](https://ci.appveyor.com/project/bel-lov/)
+[![Build status](https://ci.appveyor.com/api/projects/status/g6bb55s7392bpre0?svg=true)](https://ci.appveyor.com/project/bel-lov/Trello)
 
 
-## https://bel-lov.github.io//
+## https://bel-lov.github.io/Trello/
 
