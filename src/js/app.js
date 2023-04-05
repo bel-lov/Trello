@@ -1,5 +1,5 @@
-import Logic from './Logic';
+import Logic from "./Logic";
 
 const card = new Logic();
 
-card.bindToDOM(document.querySelector('.container'));
+card.bindToDOM(document.querySelector(".container"));
